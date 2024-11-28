@@ -1,0 +1,28 @@
+.achievements-wrapper {
+    background-color: rgb(247, 247, 253);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .achi-img {
+    width: 100%;
+    height: auto;
+  }
+  .achi-text p {
+    font-size: 14px;
+    line-height: 1.8;
+    
+  }
+  .achi-text {
+    padding: 50px 20px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+  }
+  @media (min-width:768px) {
+    .achi-img {
+      height: 500px;
+    }
+    .achi-text {
+      height: 500px;
+    }
+  }

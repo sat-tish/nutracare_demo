@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.15;
+  box-sizing: border-box;
+}
+:root {
+  --moss: #A3CB4C;
+    --moss2: #92b645;
+    --moss3: #6c8635;
+    --moss4: #405317;
+    --blue-dark: #006FDC;
+    --blue-light: #1089FF;
+}

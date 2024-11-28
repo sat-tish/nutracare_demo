@@ -1,0 +1,65 @@
+ /* blogs section */
+
+ .figure-blog {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 300px;
+  }
+  .figure-blog figcaption {
+    padding: 20px;
+    background-color: #fff;
+  }
+  .figure-blog figcaption p {
+    color: grey;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .img-scroll {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .blog-img-div {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  .blog-img {
+    width: 100%;
+    height: 250px;
+    transition: 1s ease-in;
+  } 
+  .figure-blog:hover {
+    .blog-img {
+      transform: scale(1.2);
+    }
+  }
+  /* .slick-slide {
+    >div { 
+      margin-inline: 15px; 
+    }
+  } */
+  .btn-blog {
+    max-width: 150px;
+  }
+  .para-blog {
+    color: rgb(104, 103, 103);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  /* .btn-view-more {
+
+  } */
+   .img-blog {
+    width: 100%;
+    height: 300px;
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.2;
+   }
+   .blogpage-bg {
+    background-color: rgb(247, 247, 253);
+   }

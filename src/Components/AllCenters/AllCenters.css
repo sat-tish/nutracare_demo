@@ -1,0 +1,14 @@
+.centers-row {
+    width: 100%;
+    margin: 0 auto;
+}
+@media(min-width:1200px){
+    .centers-row{
+        width: 90%;
+    }
+}
+@media(min-width:1400px){
+    .centers-row{
+        width: 85%;
+    }
+}
